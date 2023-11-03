@@ -6,7 +6,7 @@ import face_recognition
 import os
 from datetime import datetime
 
-app = Flask(__name__) 
+app = Flask(__name__)
 
 @app.route("/", methods=['GET','POST'])
 def hello_world():
